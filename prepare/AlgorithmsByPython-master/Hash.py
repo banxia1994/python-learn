@@ -1,3 +1,4 @@
+#ccoding:utf-8
 # 用Python实现hash表
 # hash的查找操作时间复杂度O(1)
 # hash每个位置被称为slot槽。可以使用list实现hash,每个slot对应一个key,存放元素
@@ -102,3 +103,5 @@ H[23] = "fish"
 print(H.data)
 H[20] = 'monkey'
 print(H.data)
+
+
